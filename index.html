@@ -1,10 +1,9 @@
-
 <html lang="en">
   <head>
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>5.1 Icons</title>
+    <title>Home - Google Drive</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round&amp;display=swap">
     <style>
       /* Your existing styles */
@@ -193,7 +192,7 @@
     <!-- Loading Screen -->
     <div class="loading-screen">
       <div class="loading-spinner"></div>
-      <img src="https://i.postimg.cc/vBMS6Bh9/samuel.png" alt="Loading Image" class="loading-image">
+    <!-----  <img src="#" alt="Loading Image" class="loading-image"> ----->
     </div>
 
     <!-- Particles container -->
@@ -202,14 +201,53 @@
     <!-- Your existing content -->
     <!-- Search bar -->
     <input type="text" id="search-bar" placeholder="Search by game title or tag..." oninput="searchGame(this.value)">
+    <!----- extra ------>
+        <div class="image-button" data-search="Games" onclick="redirectToLink('#')">
+        Games
+        <div class="button-overlay">
+        <div>Game List</div>
+        <div>Extra</div>
+        </div>
+    ````</div>
 
+    <div class="image-button" data-search="Proxys" onclick="redirectToLink('#')">
+        Proxys
+        <div class="button-overlay">
+        <div>Proxy List</div>
+        <div>Extra</div>
+        </div>
+    ````</div>
+
+    <div class="image-button" data-search="Bored Random bored random" onclick="redirectToLink('#')">
+        Random Pages
+        <div class="button-overlay">
+        <div>Random Pages</div>
+        <div>Extra</div>
+        </div>
+    ````</div>
+
+    <div class="image-button" data-search="Proxys" onclick="redirectToLink('#')">
+        Proxys
+        <div class="button-overlay">
+        <div>Proxy List</div>
+        <div>Extra</div>
+        </div>
+    ````</div>
+
+    <div class="image-button" data-search="Hacks" onclick="redirectToLink('#')">
+        Hacks
+        <div class="button-overlay">
+        <div>Hacks</div>
+        <div>Extra</div>
+        </div>
+    ````</div>
     <div class="button-container" id="button-container">
       <!-- Random game button -->
       <div id="random-game-button" onclick="playRandomGame()">
         Random Game
       </div>
       <!-- First Button -->
-      <div class="image-button" data-search="upload google form custom" onclick="redirectToLink('https://docs.google.com/forms/d/e/1FAIpQLSfS5ikzVBU7bPpImoS-h8uLeG9sTSYthB654yDECX7FHk3DFw/viewform?usp=sf_link')">
+      <div class="image-button" data-search="upload google form custom" onclick="redirectToLink('#')">
         <img id="buttonImage1" src="https://www.gstatic.com/images/branding/product/1x/forms_512dp.png" alt="Button Image">
         <div class="button-overlay">
           <div>Upload Game</div>
@@ -217,13 +255,6 @@
         </div>
       </div>
       <!-- Other image buttons here -->
-            <div class="image-button" data-search="cookie clicker idle orteil golden cookie grandma apocalypse horror" onclick="redirectToLink('https://sgs-game-cdn.pages.dev/Projects/Cookie Clicker/main.html')">
-        <img id="buttonImage1" src="https://play-lh.googleusercontent.com/Z1MOuuiD05ZN5LkVmMEvKF0mqAc-FknaQ2j8s4dZiO-LSPQX4EEA3RVJdlQEtxe96ok" alt="Button Image">
-        <div class="button-overlay">
-          <div>Cookie Clicker</div>
-          <div>Idle</div>
-        </div>
-      </div>
       <div class="image-button" data-search="" onclick="redirectToLink('https://hdun.live/games/other/play/2048/')">
         <img id="buttonImage1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/640px-2048_logo.svg.png" alt="Button Image">
         <div class="button-overlay">
